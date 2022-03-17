@@ -26,4 +26,32 @@ public class TamagotchiTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_tamagotchi_hunger()
+    {
+        // Given
+        Tamagotchi tamagotchi = new Tamagotchi();
+        int expected = tamagotchi.getHunger();
+
+        // When
+        int actual = 4;
+
+        // Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void test_tamagotchi_energy()
+    {
+        // Given
+        Tamagotchi tamagotchi = new Tamagotchi();
+        int expected = tamagotchi.getEnergy();
+
+        // When
+        int actual = 4;
+
+        // Then
+        assertEquals(expected, actual);
+    }
+
 }
